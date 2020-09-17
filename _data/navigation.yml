@@ -1,23 +1,23 @@
-- name: Areas of Focus
-  path: areas-focus.md
-
-- name: News and Events
+- name: News and events
   path: news.md
 
-- name: Who We Are
-  path: advisory-board.md
+
+- name: About D4D
+  path: areas-focus.md
+
   sub_menu:
-  - name: Advisory Board
+
+  - name: Our mission
+    path: areas-focus.md
+
+  - name: Advisory board
     path: advisory-board.md
 
-  - name: Tech and Supporting Partners
+  - name: Partners
     path: tech-supporting-partners.md
 
-  - name: Join Us
-    path: join-us.md
-
-- name: Policies
-  path: privacy-policy.md
-  sub_menu:
   - name: Privacy Policy
     path: privacy-policy.md
+
+- name: Get involved
+  path: join-us.md

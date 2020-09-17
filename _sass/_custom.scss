@@ -1,3 +1,7 @@
+#banner h1 {
+  text-transform:none;
+}
+
 a.cta {
   color: _palette(accent1, bg);
   border-bottom: 2px solid _palette(accent2, bg);
@@ -64,15 +68,19 @@ ul.faces {
   .post {
     display: inline-block;
     text-align: center;
-    width:50%;
+    width: 34%;
     padding: _size(element-margin);
     margin:0;
 
-    >.content {width:auto;}
+    >.content {
+      width:auto;
+  }
 
     &.style2 .content {
       padding: _size(element-margin);
     }
+
+
   }
 }
 .partners {
@@ -82,7 +90,7 @@ ul.faces {
   padding:0;
 
   .post:first-child {
-    width: 100%;
+    width: 80%;
     min-height: 200px;
     padding: _size(element-margin);
   }
@@ -101,43 +109,57 @@ ul.faces {
   }
   img {max-width: 100%;}
   img[src*="facebook"] {
-    max-width: 65%;
+    max-width: 60%;
   }
   
   }
   img {max-width: 100%;}
   img[src*="ndi"] {
-    max-width: 55%;
+    max-width: 34%;
   }
   
   
   img {max-width: 100%;}
   img[src*="iri"] {
-    max-width: 95%;
+    max-width: 90%;
   }
   
   
   img {max-width: 100%;}
   img[src*="Twitter"] {
-    max-width: 75%;
+    max-width: 65%;
   }
   
   
   img {max-width: 100%;}
   img[src*="NED"] {
-    max-width: 80%;
+    max-width: 74%;
   }
 
 .events {
   .post {
     min-height:auto;
+   &.news-brandmark-box {
+     border: 1px solid green;
+     border-radius: 4px;
+     .content {
+      padding: 1.25rem;
+     }
+     .news-brandmark-logo {
+      text-align: center;
+      img {
+        max-height:4.125rem;
+      }
+     }
+   }
+
     > .content {
       width:100%;
       padding:0 3rem;
 
       header .category {
         color: _palette(accent1, bg);
-      }
+      }  
     }
   }
 }
@@ -147,6 +169,9 @@ ul.faces {
     li {text-align: center;}
   }
 }
+
+
+
 
 #tarteaucitronAlertBig #tarteaucitronPersonalize {
   margin-top: .5rem;

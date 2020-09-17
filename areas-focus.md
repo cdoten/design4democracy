@@ -1,6 +1,6 @@
 ---
 layout: icon-sections
-title: Areas of Focus
+title: Our Mission
 permalink: /areas-focus/
 
 # description: Meta description of what the coalition does.
@@ -23,3 +23,15 @@ sections:
     text: "The Coalition is working directly with industry leaders to develop protocols for reporting, escalating, and resolving tech incidents that threaten to undermine elections or political events in countries around the world."
     icon: /assets/img/icons/icon-incident.svg
 ---
+
+Our mission is to ensure that information technology and social media play a proactive role in supporting democracy and human rights globally.
+
+<hr>
+
+As a community we create programs, training and dialogue that promote the safe and responsible use of technology to advance open, democratic politics and accountable, transparent governments. We work together to take action to counteract challenges to democracy that emerge from new technologies.  
+
+We recognize the diversity of cultural and political contexts in which technology platforms operate and advance solutions that are designed with the active partnership of the communities who are impacted by particular technology. 
+
+
+
+<hr>
